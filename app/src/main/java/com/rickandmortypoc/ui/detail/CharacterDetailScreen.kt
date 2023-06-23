@@ -18,10 +18,10 @@ import androidx.compose.material.Surface
 import androidx.compose.material.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.getValue
-import androidx.compose.ui.Alignment
 import androidx.compose.ui.Alignment.Companion.CenterHorizontally
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.input.key.Key.Companion.F
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.stringResource
@@ -42,6 +42,7 @@ fun CharacterDetailScreen(
     characterId: String = "1",
     navigateToBack: () -> Unit
 ) {
+    F
 
     viewModel.getCharacter(characterId)
     val uiState: DataResponse<CharacterDetail> by viewModel.uiState.collectAsStateWithLifecycle()
@@ -89,7 +90,7 @@ fun Header(
     Column(
         modifier = modifier.background(Color.White),
         verticalArrangement = Arrangement.Center,
-        horizontalAlignment = Alignment.CenterHorizontally
+        horizontalAlignment = CenterHorizontally
     ) {
         CharacterImage(image = character?.image)
 

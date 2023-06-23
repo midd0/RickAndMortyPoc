@@ -59,3 +59,5 @@ f
 6app/src/main/java/com/rickandmortypoc/ui/theme/Type.kt,c\1\c191f628b1d9108e3fc7feeaf6dabd277e00bda5
 @
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
+g
+7app/src/main/java/com/rickandmortypoc/ui/theme/Color.kt,a\1\a12ac54e92c58ca9bb2946a6cc65166c018ec342

@@ -3,9 +3,8 @@
     <string name="status">Status: </string>
     <string name="specie">Specie: </string>
     <string name="gender">Gender: </string>
-    <string name="origin">Origin: </string>
     <string name="location">Location: </string>
-    <string name="episodes">Episodes: </string>
+    <string name="episodes">%s episode(s)</string>
     <string name="created">Created: </string>
     <string name="back">characters </string>
     <string name="description_image_character">description image character </string>

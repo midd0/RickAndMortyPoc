@@ -59,3 +59,5 @@ f
 app/build.gradle,f\4\f4a01d6a4fcb971362ec00a83903fd3902f52164
 j
 :app/src/main/java/com/rickandmortypoc/ui/common/UiError.kt,0\0\00bec7e793339da9056ef97fc996a86766f313fb
+g
+7app/src/main/java/com/rickandmortypoc/ui/theme/Color.kt,a\1\a12ac54e92c58ca9bb2946a6cc65166c018ec342
