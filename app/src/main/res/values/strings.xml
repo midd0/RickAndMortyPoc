@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">RickAndMortyPoc</string>
+    <string name="status">Status: </string>
+    <string name="specie">Specie: </string>
+    <string name="gender">Gender: </string>
+    <string name="origin">Origin: </string>
+    <string name="location">Location: </string>
+    <string name="episodes">Episodes: </string>
+    <string name="created">Created: </string>
+    <string name="back">characters </string>
+    <string name="description_image_character">description image character </string>
+    <string name="description_logo">description image logo </string>
+    <string name="description_header">description image header </string>
+</resources>
